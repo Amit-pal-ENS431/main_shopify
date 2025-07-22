@@ -1,0 +1,94 @@
+<div>
+  {{ section.settings.text }} {% comment %} call id for text {% endcomment %}
+ <img src="{{ section.settings.image_with_text_image | img_url:''  }}"> {% comment %} call id for image  {% endcomment %}
+<p style="{{ section.settings.text_1 }}"> {{ section.setting.show_announcement }}</p>
+  {% if section.settings.show_announcement ==true %}
+  <div class=" heading"> {{ section.settings.text }}</div>
+    {% endif %}
+  <p>{{ section.settings.show_announcement_1 }}</p>
+   {{ section.settings.text_announcement}}
+    {{ section.settings.products_per_page}}
+  {{ section.settings.radio_button}}
+   {{ section.settings.font_size}}
+  
+</div>
+
+{% schema %}
+  {
+    "name": "text_section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "text",
+        "label": "text"
+      },
+      {
+        "type": "text",
+        "id": "text_1",
+        "label": "text"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_with_text_image",
+        "label": "image",
+      },
+      {
+          "type": "checkbox",
+        "id": "show_announcement",
+        "label": "show_announcement",
+        "default":true
+      },
+      {
+          "type": "checkbox",
+        "id": "show_announcement_1",
+        "label": "show_announcement",
+        "default":true
+      },
+      {
+        "type": "text",
+        "id": "text_announcement",
+        "label": "text"
+      },
+      {
+        "type": "number",
+        "id": "products_per_page",
+        "label": "products per page",
+        "default":20
+      },
+      {
+        "type": "radio",
+        "id": "radio_button",
+        "label": "logo_alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "left"
+          },
+          {
+            "value": "centered",
+            "label": "centered",
+          },
+          {
+            "value": "right",
+            "label": "right"
+          },
+        ],
+      },
+        {
+           "type": "range",
+           "id": "font_size",
+           "min": 12,
+           "max": 24,
+           "step": 1,
+           "unit": "px",
+           "label": "Font size",
+           "default": 16   
+      }
+    ],
+    "presets": [
+      {
+        "name": "text_section"
+      }
+    ]
+  }
+{% endschema %}

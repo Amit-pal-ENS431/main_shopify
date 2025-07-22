@@ -1,0 +1,48 @@
+<div class="grid_container page-width">
+   <div class="grid_for_learning_grid_css">
+  {% for block in section.blocks %}
+  <div class="grid_image_box">
+    <img src="{{ block.settings.grid | img_url:'original'}}" alt="random image for grid" height="100%"
+      width="100%">
+  </div>
+     
+   {% endfor %}
+    </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Grid",
+    "settings": [],
+     "blocks": [
+    {
+      "type": "Grid",
+      "name": "Grid",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "grid",
+          "label": "Upload Image"
+        }
+      ]
+        }
+      ],
+     "presets": [
+    {
+      "name": "Grid"
+    }
+  ]
+  }
+{% endschema %}
+<style>
+  .grid_for_learning_grid_css{
+  display:grid;
+  width:100%;
+  grid-template-columns: repeat(4, auto);
+  }
+  .grid_image_box{
+    width:100%;
+   
+  }
+  
+</style>

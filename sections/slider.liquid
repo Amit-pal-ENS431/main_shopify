@@ -1,0 +1,350 @@
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="wrapper page-width">
+  <div class="main-img">
+    <h1 class="textes_color 1">{{ section.settings['image-first'] }}</h1>
+  </div>
+  <div class="second-img">
+    {% for i in section.blocks %}
+    <div class="inner">
+     
+      <div class="slider_textes">
+         <div class="slider_image_slick">
+        <img src="{{ i.settings.first-img | img_url: 'original' }}" alt="" width="100%" height="auto" loading="lazy">
+      </div>
+        <h2 class="textes_color 2">{{ i.settings.person_name }}</h2>
+        <h3 class="textes_color 3">{{ i.settings.person_designation }}</h3>
+        <p class="textes_color 4">{{ i.settings.person_description }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+<div>
+  <div class="for_matress_image_text_heading">
+     <h2 class="textes_color 5">{{ section.settings['for_matress_image_text_heading'] }}</h2>
+</div>
+   <div class="for_matress_image_textes">
+ <div class="for_matress_image_text_image">
+        <img src="{{ section.settings.for_matress_image_text_for_image | img_url: 'original' }}" alt="" width="100%" height="auto" loading="lazy">
+      </div>
+     <div class="for_matress_all_textes_flex">
+     <div class="for_matress_image_texte_all_textes">
+       <div class="matress_number">
+         <span class="textes_color">
+           {{ section.settings.for_matress_image_text_for_number }}
+       </span>
+       </div>
+      <div class="for-text_head_paragragh">
+        <p class="textes_color 6">{{ section.settings.for_matress_image_text_for_heading }}</p>
+        <p class="textes_color 7">{{ section.settings.for_matress_image_text_for_textes }}</p>
+      </div>
+       </div>
+        <div class="for_matress_image_texte_all_textes">
+       <div class="matress_number">
+         <span class="textes_color 8">
+           {{ section.settings.for_matress_image_text_for_number_1 }}
+       </span>
+       </div>
+      <div class="for-text_head_paragragh">
+        <p class="textes_color 9">{{ section.settings.for_matress_image_text_for_heading_1 }}</p>
+        <p class="textes_color 10">{{ section.settings.for_matress_image_text_for_textes_1 }}</p>
+      </div>
+          </div>
+           <div class="for_matress_image_texte_all_textes">
+       <div class="matress_number">
+         <span class="textes_color 11">
+           {{ section.settings.for_matress_image_text_for_number_2 }}
+       </span>
+       </div>
+      <div class="for-text_head_paragragh">
+        <p class="textes_color 12">{{ section.settings.for_matress_image_text_for_heading_2 }}</p>
+        <p class="textes_color 13">{{ section.settings.for_matress_image_text_for_textes_2 }}</p>
+      </div>
+             </div>
+              <div class="for_matress_image_texte_all_textes">
+       <div class="matress_number">
+         <span class="textes_color 14">
+           {{ section.settings.for_matress_image_text_for_number_3 }}
+       </span>
+       </div>
+      <div class="for-text_head_paragragh">
+        <p class="textes_color 15">{{ section.settings.for_matress_image_text_for_heading_3 }}</p>
+        <p class="textes_color16">{{ section.settings.for_matress_image_text_for_textes_3 }}</p>
+      </div>
+</div>
+
+
+
+</div>
+
+{% schema %}
+{
+  "name": "slider",
+  "settings": [
+    {
+      "type": "text",
+      "id": "image-first",
+      "label": "Heading"
+    },
+     {
+      "type": "text",
+      "id": "for_matress_image_text_heading",
+      "label": "Heading"
+    },
+     {
+      "type": "image_picker",
+      "id": "for_matress_image_text_for_image",
+      "label": "Upload Image"
+    },
+     {
+      "type": "text",
+      "id": "for_matress_image_text_for_number",
+      "label": "Number"
+    },
+     {
+      "type": "text",
+      "id": "for_matress_image_text_for_heading",
+      "label": "Description Heading"
+    },
+     {
+      "type": "text",
+      "id": "for_matress_image_text_for_textes",
+      "label": "Description"
+    }, {
+      "type": "text",
+      "id": "for_matress_image_text_for_number_1",
+      "label": "Number"
+    },
+     {
+      "type": "text",
+      "id": "for_matress_image_text_for_heading_1",
+      "label": "Description Heading"
+    },
+     {
+      "type": "text",
+      "id": "for_matress_image_text_for_textes_1",
+      "label": "Description"
+    }, {
+      "type": "text",
+      "id": "for_matress_image_text_for_number_2",
+      "label": "Number"
+    },
+     {
+      "type": "text",
+      "id": "for_matress_image_text_for_heading_2",
+      "label": "Description Heading"
+    },
+     {
+      "type": "text",
+      "id": "for_matress_image_text_for_textes_2",
+      "label": "Description"
+    }, {
+      "type": "text",
+      "id": "for_matress_image_text_for_number_3",
+      "label": "Number"
+    },
+     {
+      "type": "text",
+      "id": "for_matress_image_text_for_heading_3",
+      "label": "Description Heading"
+    },
+     {
+      "type": "text",
+      "id": "for_matress_image_text_for_textes_3",
+      "label": "Description"
+    }
+    
+  ],
+  "blocks": [
+    {
+      "type": "slider",
+      "name": "Slider Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "first-img",
+          "label": "Upload Image"
+        },
+        {
+          "type": "text",
+          "id": "person_name",
+          "label": "Name"
+        },
+        {
+          "type": "text",
+          "id": "person_designation",
+          "label": "Designation"
+        },
+        {
+          "type": "textarea",
+          "id": "person_description",
+          "label": "Description"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "slider"
+    }
+  ]
+}
+{% endschema %}
+<style>
+ h1.textes_color.\31 {
+    margin-bottom: 28px;
+    margin-top: 25px;
+}
+  h2.textes_color.\35 {
+      margin-bottom: 10rem;
+    margin-top: 25px;
+}
+  .circle_presentation_for_flex{
+    display:flex;
+    padding:5px;
+    justify-content:center;
+    align-items:center;
+  }
+  .circle_presentation{
+    list-style-type: none;
+    height:20px;
+    width:20px;
+    border: 5px solid white;
+    border-radius:50%;
+  }
+  .textes_color{
+    color:white;
+    padding:0px;
+    margin:2px;
+  }
+  .main-img{
+    display:flex;
+    justify-content:center;
+    align-item:center;
+    
+  }
+  .wrapper{
+    background:#111111;
+    padding:0;
+  }
+  .slider_textes {
+    text-align: center;
+    background: #2e2f3c;
+    margin-right: 15px;
+    padding-top:100px;
+    border-radius:30px;
+    position: relative;
+    min-height: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+  .slider_image_slick{
+    position:absolute;
+    width: 50%;
+    bottom: 75%;
+    left: 25%;
+  }
+.slider_image_slick img {
+    border-radius: 50%;
+}
+  .inner{
+     margin-top: 15rem;
+     margin-bottom: 6rem;
+  }
+  .for_matress_image_text_heading{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .for_matress_image_textes{
+    display:flex;
+    width:100%;
+  }
+  .for_matress_image_text_image{
+    width:140%;
+  
+  }
+  .for_matress_image_text_image img{
+    width:100%;
+      height:85%
+  }
+  .for_matress_all_textes_flex{
+    display:flex;
+    flex-direction:column;
+    width: 117%;
+  }
+  .for_matress_image_texte_all_textes{
+    display:flex;
+   
+    padding:10px;
+  }
+  .matress_number span{
+    margin:15px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 23px;
+    min-width: 23px;
+    border-radius: 50%;
+    border: solid #e5e7eb;
+    box-sizing: border-box;
+  }
+  .slick-dots li button:before{
+    border: 5px solid white;
+    border-radius: 50%;
+    font-size: 0px;
+    position:absolute;
+    top:0%;
+  }
+  .slick-dots{
+        bottom: 100%;
+     
+  }
+</style>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $('.second-img').slick({
+      speed: 1500,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: false,
+      arrows: true,
+      dots: true,
+      autoplaySpeed: 2000,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            arrows: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+  });
+</script>
