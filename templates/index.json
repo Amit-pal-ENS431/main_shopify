@@ -1,1 +1,424 @@
-{"sections":{"image_banner_GbEbK7":{"type":"image-banner","blocks":{"heading_ab3rjG":{"type":"heading","settings":{"heading":"APKA APNA DUKAN","heading_size":"h1"}},"text_4qBgzp":{"type":"text","settings":{"text":"SHOP SMART LIVE BETTER","text_style":"subtitle"}},"buttons_FPWDtP":{"type":"buttons","settings":{"button_label_1":"PRODUCT","button_link_1":"","button_style_secondary_1":false,"button_label_2":"COLLECTION","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_ab3rjG","text_4qBgzp","buttons_FPWDtP"],"name":"t:sections.image-banner.presets.name","settings":{"image":"shopify:\/\/shop_images\/shopify_banner_image.jpg","image_overlay_opacity":0,"image_height":"medium","image_behavior":"none","desktop_content_position":"middle-center","desktop_content_alignment":"center","show_text_box":true,"color_scheme":"","stack_images_on_mobile":true,"mobile_content_alignment":"center","show_text_below":true}},"slideshow_cctaBd":{"type":"slideshow","blocks":{"slide_VUGrcx":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/noise_watch_pink_3_d414b1e3-4920-48b9-9181-5532e66718cf.jpg","image_overlay_opacity":0,"heading":"Watches","heading_size":"h1","subheading":"All Brand Are Available Now","button_label":"Click For More","link":"","button_style_secondary":false,"show_text_box":true,"box_align":"middle-center","text_alignment":"center","text_alignment_mobile":"center","color_scheme":""}},"slide_6NUjPL":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/noise_green.jpg","image_overlay_opacity":0,"heading":"Airbuds","heading_size":"h1","subheading":"Available in 5 Brands","button_label":"Click For More","link":"","button_style_secondary":false,"show_text_box":true,"box_align":"middle-center","text_alignment":"center","text_alignment_mobile":"center","color_scheme":""}}},"block_order":["slide_VUGrcx","slide_6NUjPL"],"settings":{"layout":"full_bleed","slide_height":"medium","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":true,"accessibility_info":"Slideshow about our brand"}},"featured_collection_zW9NhT":{"type":"featured-collection","name":"t:sections.featured-collection.presets.name","settings":{"collection":"noise_watch","products_to_show":4,"title":"Featured collection","heading_size":"h1","description":"","show_description":false,"description_style":"body","columns_desktop":4,"enable_desktop_slider":false,"full_width":false,"show_view_all":true,"view_all_style":"solid","color_scheme":"","image_ratio":"adapt","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"quick_add":"none","columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"collection_list_jnniJH":{"type":"collection-list","blocks":{"featured_collection_dfK9nK":{"type":"featured_collection","settings":{"collection":"bacca_bucci"}},"featured_collection_hPLmid":{"type":"featured_collection","settings":{"collection":"fire_boult-smart-watch"}},"featured_collection_FFNWcr":{"type":"featured_collection","settings":{"collection":"earbuds"}}},"block_order":["featured_collection_dfK9nK","featured_collection_hPLmid","featured_collection_FFNWcr"],"settings":{"title":"Collections","heading_size":"h1","image_ratio":"square","columns_desktop":3,"color_scheme":"","show_view_all":false,"columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"image_with_text_kh6ig4":{"type":"image-with-text","blocks":{"heading_8JpG9h":{"type":"heading","settings":{"heading":"Fruits","heading_size":"h1"}},"text_Yixiac":{"type":"text","settings":{"text":"<p>fruit,<strong>the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds<\/strong>. Thus, apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically fruits.<\/p>","text_style":"body"}},"button_K8LqFM":{"type":"button","settings":{"button_label":"Click","button_link":"","button_style_secondary":false}}},"block_order":["heading_8JpG9h","text_Yixiac","button_K8LqFM"],"settings":{"image":"shopify:\/\/shop_images\/fruits.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","image_behavior":"none","content_layout":"no-overlap","desktop_content_position":"top","desktop_content_alignment":"left","mobile_content_alignment":"left","section_color_scheme":"","color_scheme":"","padding_top":36,"padding_bottom":36}},"multicolumn_m8HWmx":{"type":"multicolumn","blocks":{"column_PrxaPn":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/trollybag.jpg","title":"Trolly Bag","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}},"column_a7Trk9":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/trollybag_1.jpg","title":"Trolly Bag","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}},"column_4qT6A3":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/trollybag_2.jpg","title":"Trolly Bag","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}}},"block_order":["column_PrxaPn","column_a7Trk9","column_4qT6A3"],"settings":{"title":"Multicolumn","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"Button label","button_link":"","columns_desktop":3,"column_alignment":"left","background_style":"primary","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"multirow_ULM8pk":{"type":"multirow","blocks":{"row_p4Frr6":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/ring.webp","caption":"","heading":"Ring","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","button_label":"click","button_link":"https:\/\/www.google.com\/search?q=about+engagment+ring&sca_esv=cd4fb26d11f6ea98&rlz=1C1OPNX_enIN1091IN1091&ei=QwnhZ-CkMseY4-EPxOfj6A0&ved=0ahUKEwig0vy8mKKMAxVHzDgGHcTzGN0Q4dUDCBA&uact=5&oq=about+engagment+ring&gs_lp=Egxnd3Mtd2l6LXNlcnAiFGFib3V0IGVuZ2FnbWVudCByaW5nSMkqUKoLWLslcAF4AZABAJgB_gGgAeYIqgEFMC41LjG4AQPIAQD4AQGYAgGgAhHCAgoQABiwAxjWBBhHmAMA4gMFEgExIECIBgGQBgWSBwExoAehA7IHALgHAA&sclient=gws-wiz-serp"}},"row_fJLFTn":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/ring_1.webp","caption":"ring","heading":"Ring","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","button_label":"click","button_link":"https:\/\/www.google.com\/search?q=about+engagment+ring&sca_esv=cd4fb26d11f6ea98&rlz=1C1OPNX_enIN1091IN1091&ei=QwnhZ-CkMseY4-EPxOfj6A0&ved=0ahUKEwig0vy8mKKMAxVHzDgGHcTzGN0Q4dUDCBA&uact=5&oq=about+engagment+ring&gs_lp=Egxnd3Mtd2l6LXNlcnAiFGFib3V0IGVuZ2FnbWVudCByaW5nSMkqUKoLWLslcAF4AZABAJgB_gGgAeYIqgEFMC41LjG4AQPIAQD4AQGYAgGgAhHCAgoQABiwAxjWBBhHmAMA4gMFEgExIECIBgGQBgWSBwExoAehA7IHALgHAA&sclient=gws-wiz-serp"}}},"block_order":["row_p4Frr6","row_fJLFTn"],"settings":{"image_height":"medium","desktop_image_width":"medium","image_layout":"alternate-left","heading_size":"h1","text_style":"body","button_style":"secondary","desktop_content_position":"middle","desktop_content_alignment":"left","mobile_content_alignment":"left","section_color_scheme":"","row_color_scheme":"","padding_top":36,"padding_bottom":36}},"featured_product_hFfcqU":{"type":"featured-product","blocks":{"text_4G7LmE":{"type":"text","settings":{"text":"{{ section.settings.product.vendor }}","text_style":"uppercase"}},"title_Rb4fq8":{"type":"title","settings":{"heading_size":"h1"}},"price_j4FNLr":{"type":"price","settings":{}},"variant_picker_W68VY8":{"type":"variant_picker","settings":{"picker_type":"button","swatch_shape":"circle"}},"quantity_selector_rnVJPp":{"type":"quantity_selector","settings":{}},"buy_buttons_R9Hncj":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"show_gift_card_recipient":true}},"share_bmG6a3":{"type":"share","settings":{"share_label":"Share"}}},"block_order":["text_4G7LmE","title_Rb4fq8","price_j4FNLr","variant_picker_W68VY8","quantity_selector_rnVJPp","buy_buttons_R9Hncj","share_bmG6a3"],"name":"t:sections.featured-product.presets.name","settings":{"product":"puma_cap-1","color_scheme":"","secondary_background":false,"media_size":"medium","constrain_to_viewport":true,"media_fit":"contain","media_position":"left","image_zoom":"lightbox","hide_variants":false,"enable_video_looping":false,"padding_top":36,"padding_bottom":36}}},"order":["image_banner_GbEbK7","slideshow_cctaBd","featured_collection_zW9NhT","collection_list_jnniJH","image_with_text_kh6ig4","multicolumn_m8HWmx","featured_product_hFfcqU","multirow_ULM8pk"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_GbEbK7": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_ab3rjG": {
+          "type": "heading",
+          "settings": {
+            "heading": "APKA APNA DUKAN",
+            "heading_size": "h1"
+          }
+        },
+        "text_4qBgzp": {
+          "type": "text",
+          "settings": {
+            "text": "SHOP SMART LIVE BETTER",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_FPWDtP": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "PRODUCT",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "COLLECTION",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ab3rjG",
+        "text_4qBgzp",
+        "buttons_FPWDtP"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/shopify_banner_image.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "slideshow_cctaBd": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_VUGrcx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/noise_watch_pink_3_d414b1e3-4920-48b9-9181-5532e66718cf.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Watches",
+            "heading_size": "h1",
+            "subheading": "All Brand Are Available Now",
+            "button_label": "Click For More",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_6NUjPL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/noise_green.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Airbuds",
+            "heading_size": "h1",
+            "subheading": "Available in 5 Brands",
+            "button_label": "Click For More",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_VUGrcx",
+        "slide_6NUjPL"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "featured_collection_zW9NhT": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "noise_watch",
+        "products_to_show": 4,
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_jnniJH": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_dfK9nK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bacca_bucci"
+          }
+        },
+        "featured_collection_hPLmid": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fire_boult-smart-watch"
+          }
+        },
+        "featured_collection_FFNWcr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "earbuds"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_dfK9nK",
+        "featured_collection_hPLmid",
+        "featured_collection_FFNWcr"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_kh6ig4": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8JpG9h": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fruits",
+            "heading_size": "h1"
+          }
+        },
+        "text_Yixiac": {
+          "type": "text",
+          "settings": {
+            "text": "<p>fruit,<strong>the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds</strong>. Thus, apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically fruits.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_K8LqFM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Click",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8JpG9h",
+        "text_Yixiac",
+        "button_K8LqFM"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/fruits.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_m8HWmx": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_PrxaPn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/trollybag.jpg",
+            "title": "Trolly Bag",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_a7Trk9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/trollybag_1.jpg",
+            "title": "Trolly Bag",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4qT6A3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/trollybag_2.jpg",
+            "title": "Trolly Bag",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_PrxaPn",
+        "column_a7Trk9",
+        "column_4qT6A3"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Button label",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_hFfcqU": {
+      "type": "featured-product",
+      "blocks": {
+        "text_4G7LmE": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_Rb4fq8": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_j4FNLr": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_W68VY8": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_rnVJPp": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_R9Hncj": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_bmG6a3": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_4G7LmE",
+        "title_Rb4fq8",
+        "price_j4FNLr",
+        "variant_picker_W68VY8",
+        "quantity_selector_rnVJPp",
+        "buy_buttons_R9Hncj",
+        "share_bmG6a3"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "puma_cap-1",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_ULM8pk": {
+      "type": "multirow",
+      "blocks": {
+        "row_p4Frr6": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/ring.webp",
+            "caption": "",
+            "heading": "Ring",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "click",
+            "button_link": "https://www.google.com/search?q=about+engagment+ring&sca_esv=cd4fb26d11f6ea98&rlz=1C1OPNX_enIN1091IN1091&ei=QwnhZ-CkMseY4-EPxOfj6A0&ved=0ahUKEwig0vy8mKKMAxVHzDgGHcTzGN0Q4dUDCBA&uact=5&oq=about+engagment+ring&gs_lp=Egxnd3Mtd2l6LXNlcnAiFGFib3V0IGVuZ2FnbWVudCByaW5nSMkqUKoLWLslcAF4AZABAJgB_gGgAeYIqgEFMC41LjG4AQPIAQD4AQGYAgGgAhHCAgoQABiwAxjWBBhHmAMA4gMFEgExIECIBgGQBgWSBwExoAehA7IHALgHAA&sclient=gws-wiz-serp"
+          }
+        },
+        "row_fJLFTn": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/ring_1.webp",
+            "caption": "ring",
+            "heading": "Ring",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "click",
+            "button_link": "https://www.google.com/search?q=about+engagment+ring&sca_esv=cd4fb26d11f6ea98&rlz=1C1OPNX_enIN1091IN1091&ei=QwnhZ-CkMseY4-EPxOfj6A0&ved=0ahUKEwig0vy8mKKMAxVHzDgGHcTzGN0Q4dUDCBA&uact=5&oq=about+engagment+ring&gs_lp=Egxnd3Mtd2l6LXNlcnAiFGFib3V0IGVuZ2FnbWVudCByaW5nSMkqUKoLWLslcAF4AZABAJgB_gGgAeYIqgEFMC41LjG4AQPIAQD4AQGYAgGgAhHCAgoQABiwAxjWBBhHmAMA4gMFEgExIECIBgGQBgWSBwExoAehA7IHALgHAA&sclient=gws-wiz-serp"
+          }
+        }
+      },
+      "block_order": [
+        "row_p4Frr6",
+        "row_fJLFTn"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "clicheck_mMh6Wc": {
+      "type": "clicheck",
+      "name": "newexte",
+      "settings": {
+        "textttid": "heading",
+        "textt222": "JavaScript mein inheritance class-based nahi, prototype-based hoti hai. Har object JavaScript mein ek internal link rakhta hai jo point karta hai ek aur object ki taraf — jise hum kehte hain:"
+      }
+    }
+  },
+  "order": [
+    "image_banner_GbEbK7",
+    "slideshow_cctaBd",
+    "featured_collection_zW9NhT",
+    "collection_list_jnniJH",
+    "image_with_text_kh6ig4",
+    "multicolumn_m8HWmx",
+    "featured_product_hFfcqU",
+    "multirow_ULM8pk",
+    "clicheck_mMh6Wc"
+  ]
+}
