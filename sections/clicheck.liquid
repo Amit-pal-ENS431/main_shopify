@@ -1,6 +1,9 @@
 <div>
 <h1>{{ section.settings.textttid }}</h1>
 <p>{{ section.settings.textt222 }}</p>
+<div>
+  <img src="{{ section.settings.cover_image | url: ''}}" alt="image-paglu" height="auto" width="100%">
+</div>
 </div>
 {% schema %}
   {
@@ -16,6 +19,11 @@
           "type": "text",
           "id": "textt222",
           "label": "description"
+        },
+        {
+         "type": "image_picker",
+          "id": "cover_image",
+          "label": "Image"
         },
     
     ],
