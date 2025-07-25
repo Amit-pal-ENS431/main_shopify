@@ -406,7 +406,8 @@
       "name": "newexte",
       "settings": {
         "textttid": "heading",
-        "textt222": "JavaScript mein inheritance class-based nahi, prototype-based hoti hai. Har object JavaScript mein ek internal link rakhta hai jo point karta hai ek aur object ki taraf — jise hum kehte hain:"
+        "textt222": "JavaScript mein inheritance class-based nahi, prototype-based hoti hai. Har object JavaScript mein ek internal link rakhta hai jo point karta hai ek aur object ki taraf — jise hum kehte hain:",
+        "cover_image": "shopify://shop_images/Screenshot_2025-07-03_103343.png"
       }
     }
   },
