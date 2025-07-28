@@ -1,47 +1,45 @@
 <div>
- <div>
-   <h1>{{ section.settings.title-head }}</h1>
-   <p>{{ section.settings.decription }}</p>
- </div>
- <div>
+  <div>
+    <h1>{{ section.settings.title_head }}</h1>
+    <p>{{ section.settings.description }}</p>
+  </div>
+  <div>
     <div class="image-wrapper">
-       <img src="{{ section.settings.background_image | img_url :'' }}" alt="Background Image" height="auto" width="100%">
-     </div>
-
- </div>
+      {% if section.settings.background_image != blank %}
+        <img src="{{ section.settings.background_image | img_url: 'master' }}" alt="Background Image" width="100%" height="auto">
+      {% endif %}
+    </div>
+  </div>
 </div>
+
 {% schema %}
-  {
-    "name": "brandshow",
-    "tag": "section",
-    "class": "",
-    "settings": [
-        {
+{
+  "name": "brandshow",
+  "tag": "section",
+  "class": "",
+  "settings": [
+    {
       "type": "text",
-        "label": "Title",
-          "id": "title-head",
-          "default": ""
-        },
-         {
+      "label": "Title",
+      "id": "title_head",
+      "default": "Your Brand Title"
+    },
+    {
       "type": "text",
-        "label": "Decription",
-          "id": "decription",
-          "default": ""
-        },
-       {
-          "type": "image_picker",
-          "label": "Background Image",
-          "id": "background_image",
-    
-        },
-       
-    ],
-    "presets": [
-      {
-        "name": "brandshow",
-        "settings": {
-        }
-      }
-    ]
-  }
+      "label": "Description",
+      "id": "description",
+      "default": "Your brand description goes here."
+    },
+    {
+      "type": "image_picker",
+      "label": "Background Image",
+      "id": "background_image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "brandshow"
+    }
+  ]
+}
 {% endschema %}
