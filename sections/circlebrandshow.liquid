@@ -1,3 +1,15 @@
+<div>
+ <div>
+   <h1>{{ section.settings.title-head }}</h1>
+   <p>{{ section.settings.decription }}</p>
+ </div>
+ <div>
+    <div class="image-wrapper">
+       <img src="{{ section.settings.background_image | img_url :'' }}" alt="Background Image" height="auto" width="100%">
+     </div>
+
+ </div>
+</div>
 {% schema %}
   {
     "name": "brandshow",
@@ -7,18 +19,22 @@
         {
       "type": "text",
         "label": "Title",
-          "id": "title",
+          "id": "title-head",
+          "default": ""
+        },
+         {
+      "type": "text",
+        "label": "Decription",
+          "id": "decription",
           "default": ""
         },
        {
           "type": "image_picker",
           "label": "Background Image",
           "id": "background_image",
-          "default": "",
-        
+    
         },
        
-    
     ],
     "presets": [
       {
